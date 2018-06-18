@@ -8,7 +8,24 @@
 import scrapy
 
 
-class WeddingtalksraperItem(scrapy.Item):
+class WeddingTalkSraperItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    description = scrapy.Field()
+    introduction = scrapy.Field()
+    url = scrapy.Field()
+    overall_rating = scrapy.Field()
+    category = scrapy.Field()
+    address = scrapy.Field()
+    telephone = scrapy.Field()
+    website = scrapy.Field()
+    email = scrapy.Field()
+    map_location = scrapy.Field()
+    quality_rating = scrapy.Field()
+    timeliness_rating = scrapy.Field()
+    reviews = scrapy.Field()
+
+
+
+
+
